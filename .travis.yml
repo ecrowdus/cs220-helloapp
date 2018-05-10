@@ -2,7 +2,7 @@ language: Python
 install: true
 group: "stable"
 script: pytest
-stage: build
+stage: test
 branches: 
   only:
    - master
