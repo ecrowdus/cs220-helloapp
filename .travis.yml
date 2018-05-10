@@ -1,11 +1,8 @@
 language: Python
 install: true
 group: "stable"
+script: pytest
 stage: build
 branches: 
   only:
    - master
-jobs:
-  stage: test
-  script:
-    pytest
