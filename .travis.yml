@@ -1,8 +1,2 @@
 language: Python
-install: true
-group: "stable"
 script: pytest
-stage: test
-branches: 
-  only:
-   - master
